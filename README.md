@@ -11,6 +11,7 @@ Features:
 - exported volumes for persistence
 - distroless for absolutely small image size
 
+## Using
 In this example I mounted blobs dir to `~a/var/perkeep` on my host machine and configs to `~a/.config/perkeep`.
 
 ```
@@ -22,6 +23,6 @@ After first run edit configuration file as you need (maybe with root access) and
 
 ## License
 
-The license covered only Dockerfile and not related to packed software.
 Dockerfile licensed under Apache v2.0 license just as [official Docker
 images repository](https://github.com/docker-library/official-images).
+The license covers only Dockerfile and not related to packed software.
