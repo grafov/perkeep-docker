@@ -2,7 +2,14 @@
 
 Docker build for [Perkeep (calimstore)](https://perkeep.org/).
 
-Based on official Dockerfile from perkeep/perkeep but with persistence.
+Based on official Dockerfile from Perkeep project. Official image very
+basic and not expose storage for persistence. Other side projects for
+running Perkeep in Docker use distros like Alpine in runtime that not
+need for running Perkeep.
+
+Features:
+- exported volumes for persistence
+- distroless for absolutely small image size
 
 In this example I mounted blobs dir to `~a/var/perkeep` on my host machine and configs to `~a/.config/perkeep`.
 
